@@ -1,0 +1,127 @@
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+   padding: 0 6rem;
+   overflow-x: hidden;
+}
+.gradient-text {
+    background: linear-gradient(221deg, #42d392, #647eff, #807be3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 2rem;
+  }
+  .gradient-text-intro {
+    background: linear-gradient(221deg, #42d392, #647eff, #807be3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 3rem;
+  }
+ul{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    color: rgb(173, 171, 171);
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+           "slnt" 0;
+
+}
+.intro{
+    font-size: 3rem;
+    font-weight:800;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgb(255, 255, 255);
+    text-align:start;
+    text-indent:0px;
+}
+
+.image-container {
+    height: 32rem;
+    width: 35rem;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 15px; /* Adjust this value for the thickness of the gradient border */
+    
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 4px 4px 12px rgb(138, 136, 136);
+  }
+  .menui-bar{
+    cursor: pointer;
+  }
+
+  .tech-logo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s linear;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3)
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.2); /* Adjust the scale value as needed */
+  }
+
+  .hero-padding{
+    padding-top: 4rem;
+  }
+
+  .main-heading{
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(52, 52, 52);
+  }
+  .tech-stck-subheading{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgb(145, 139, 139);
+  }
+ 
+  .tech-logo{
+    height: 7rem;
+    width: 8rem;
+  }
+
+  .technology-logos{
+    padding-top: 5rem;
+  }
+
+  .no-pad{
+    padding: 0px;
+  }
+  
+  
+
+  @media screen and (max-width:600px) {
+    .wrapper{
+        padding: 0 4rem;
+        
+    }
+    .gradient-text-intro,.intro{
+        font-size: 2.5rem;
+    }
+    
+  }
+
+  
+  @media screen and (max-width:1023px) {
+  
+    .links{
+        display: none !important;
+    }
+    
+  }
